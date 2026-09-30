@@ -1,11 +1,6 @@
 export default function Page() {
   return (
     <>
-      <main className="page">
-        <h1>IoT practicals</h1>
-        <p>Python scripts for the Raspberry Pi lab exercises.</p>
-      </main>
-
       <a
         className="download"
         href="/api/download"
