@@ -9,42 +9,45 @@ pnpm install
 pnpm dev
 ```
 
-## Add a file
+## Add files
 
-Put your file in `/files` and set it in `.env.local`:
+Put any files in `/files`. That's it. Commit and redeploy.
 
-```env
-DOWNLOAD_FILE=IOT-main.zip
-# DOWNLOAD_NAME=IOT-main.zip   (optional, name shown to the downloader)
-```
+Optional: set `DOWNLOAD_FILE=name.zip` (in `.env.local` or the Vercel env settings) to choose which file the default URL serves. If unset, the first file (alphabetically) is used.
 
-Restart the server after changing the env file. The file is never placed in `/public`, so it can only be reached through `/api/download`.
+## Three ways to download
+
+| What | URL |
+| --- | --- |
+| Default file | `/api/download` |
+| A specific file | `/api/download/<file name>` |
+| List all files | `/api/files` |
 
 ## Browser
 
-Open `http://localhost:3000` and click the ↓ button in the bottom-right corner.
+Open the site and click the ↓ button in the bottom-right corner (downloads the default file).
 
-## Terminal
+## Terminal (replace `BASE` with `http://localhost:3000` or your https domain)
 
-Linux / macOS:
-
-```bash
-curl -L http://localhost:3000/api/download -o IOT-main.zip
-```
-
-Windows PowerShell:
-
-```powershell
-curl.exe -L http://localhost:3000/api/download -o IOT-main.zip
-```
-
-wget:
+Use **https** on deployed sites. `-OJ` saves the file under the name the server sends, so you never type a file name.
 
 ```bash
-wget http://localhost:3000/api/download -O IOT-main.zip
+# list
+curl BASE/api/files
+
+# default file, real name kept (Linux / macOS)
+curl -LOJ BASE/api/download
+
+# specific file
+curl -LOJ BASE/api/download/IOT-main.zip
+
+# wget
+wget --content-disposition BASE/api/download
 ```
 
-Headers only: `curl -I http://localhost:3000/api/download`
+Windows PowerShell: same commands with `curl.exe` instead of `curl`.
+
+Always check the saved file size. A few bytes means an error message was saved, not the file.
 
 ## Production
 
@@ -59,4 +62,5 @@ pnpm start
 - `HEAD` and single-range (`Range: bytes=...`) requests are supported, so interrupted downloads can resume (`curl -C -`).
 - Paths (including symlinks) that resolve outside `/files` return 404.
 - Missing file: `404 File unavailable.` Any other failure: `500 Server error.`
+- `next.config.ts` uses `outputFileTracingIncludes` so `/files` is bundled on Vercel. Don't remove it.
 - Browser download indicators are controlled by the browser and OS, not by this app.
