@@ -1,0 +1,20 @@
+Action	Command
+Start typing/editing	i
+Save	Esc → :w → Enter
+Exit	Esc → :q → Enter
+Save + Exit	Esc → :wq → Enter
+Exit without saving	Esc → :q! → Enter
+Delete current line	dd
+Copy current line	yy
+Paste	p
+Undo	u
+Redo	Ctrl + r
+Search	/text → Enter
+Go to line	:number → Enter
+Go to beginning	gg
+Go to end	G
+
+
+Esc → gg → V → G → y
+
+p

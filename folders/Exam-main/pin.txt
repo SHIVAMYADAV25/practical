@@ -1,0 +1,121 @@
+GPIO — General Purpose Input/Output pins used to control or read electronic devices.
+VCC/VDD — Positive power supply provided to a circuit/module.
+GND — Ground/common electrical reference of the circuit.
+
+
+SDA — Serial Data line used to transfer data in I2C.
+SCL — Serial Clock line used to synchronize I2C communication.
+I2C — A communication protocol that mainly uses SDA and SCL.
+
+TX — Transmit line used to send serial data.
+RX — Receive line used to receive serial data.
+UART — Serial communication protocol commonly using TX and RX.
+
+SPI — Serial communication protocol using MOSI, MISO, SCLK and CS/CE.
+MOSI — Master Out, Slave In; carries data from master to slave.
+MISO — Master In, Slave Out; carries data from slave to master.
+SCLK — Serial clock used to synchronize SPI communication.
+
+CS/CE — Chip Select/Enable used to select an SPI device.
+ADC — Analog-to-Digital Converter that converts analog signals into digital values.
+A0–A3 — Analog input channels of the ADS1115.
+
+GPIO.BOARD — Uses the Raspberry Pi's physical pin numbers.
+GPIO.BCM — Uses the Raspberry Pi's GPIO/BCM numbering.
+
+3.3V — Raspberry Pi's 3.3-volt power supply.
+5V — Raspberry Pi's 5-volt power supply.
+
+Physical Pin — The actual numbered pin position on the Raspberry Pi header.
+
+
+RASPBERRY PI PRACTICALS - PIN CONNECTIONS
+==========================================
+
+
+PRACTICAL 1 - LED PATTERN
+--------------------------
+
+LED Long Leg (+)  -> Physical Pin 11
+LED Short Leg (-) -> Physical Pin 6 (GND)
+
+
+PRACTICAL 2 - TM1637 4-DIGIT DISPLAY
+-------------------------------------
+
+TM1637 CLK -> Physical Pin 16
+TM1637 DIO -> Physical Pin 18
+TM1637 VCC -> Physical Pin 2 (5V)
+TM1637 GND -> Physical Pin 6 (GND)
+
+
+PRACTICAL 3 - ADS1115 OSCILLOSCOPE
+-----------------------------------
+
+ADS1115 VDD -> Physical Pin 1 (3.3V)
+ADS1115 GND -> Physical Pin 6 (GND)
+ADS1115 SDA -> Physical Pin 3 (GPIO2 / SDA)
+ADS1115 SCL -> Physical Pin 5 (GPIO3 / SCL)
+
+Signal -> ADS1115 A0
+
+NOTE:
+A0 is a pin on the ADS1115 board, not on the Raspberry Pi.
+
+
+PRACTICAL 4 - TELEGRAM LED CONTROL
+-----------------------------------
+
+LED Long Leg (+)  -> Physical Pin 11
+LED Short Leg (-) -> Physical Pin 6 (GND)
+
+Telegram:
+"on"  -> LED ON
+"off" -> LED OFF
+
+
+PRACTICAL 5 - GPS MODULE
+------------------------
+
+GPS VCC -> Physical Pin 2 (5V)
+GPS GND -> Physical Pin 6 (GND)
+GPS TX  -> Physical Pin 10 (GPIO15 / RX)
+GPS RX  -> Physical Pin 8 (GPIO14 / TX)
+
+IMPORTANT:
+GPS TX -> Raspberry Pi RX -> Physical Pin 10
+
+
+PRACTICAL 6 - 16x2 LCD WITH I2C
+--------------------------------
+
+Raspberry Pi Pin 1 -> Level Shifter LV
+Raspberry Pi Pin 3 -> Level Shifter LV1 / SDA
+Raspberry Pi Pin 5 -> Level Shifter LV2 / SCL
+Raspberry Pi Pin 6 -> Level Shifter GND
+
+Level Shifter -> LCD I2C Backpack
+
+
+PRACTICAL 7 - RELAY / HOME AUTOMATION
+--------------------------------------
+
+Relay IN  -> Physical Pin 37
+Relay GND -> Physical Pin 6 (GND)
+Relay VCC -> Physical Pin 2 (5V)
+
+
+PRACTICAL 8
+-----------
+
+Pin connections not provided.
+
+
+PRACTICAL 9 - PN532 RFID
+-------------------------
+
+PN532 VCC -> Physical Pin 2 (5V)
+PN532 GND -> Physical Pin 6 (GND)
+PN532 SDA -> Physical Pin 3 (GPIO2 / SDA)
+PN532 SCL -> Physical Pin 5 (GPIO3 / SCL)
+

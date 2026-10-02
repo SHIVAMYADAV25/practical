@@ -99,3 +99,81 @@ body {
     transition: none;
   }
 }
+
+/* ---- folder list ---- */
+.folders {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 0;
+  display: grid;
+  gap: 12px;
+}
+
+.folders li {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px;
+  display: grid;
+  gap: 12px;
+}
+
+.folder-actions {
+  display: grid;
+  gap: 10px;
+}
+
+.btn {
+  justify-self: start;
+  font: inherit;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--bg);
+  color: var(--fg);
+  cursor: pointer;
+}
+
+.btn:hover:not(:disabled) {
+  background: var(--hover);
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: progress;
+}
+
+.btn.small {
+  margin-top: 8px;
+  padding: 4px 10px;
+  font-size: 0.85rem;
+}
+
+.msg {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.msg.error {
+  color: #c0392b;
+}
+
+.hint {
+  font-size: 0.9rem;
+}
+
+details summary {
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.cmd {
+  display: block;
+  margin-top: 8px;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  overflow-x: auto;
+  white-space: nowrap;
+}

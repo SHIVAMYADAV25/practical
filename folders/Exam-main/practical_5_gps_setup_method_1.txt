@@ -1,0 +1,77 @@
+Practical 5: Raspberry Pi GPS Module Interfacing
+Method 1: Using raspi-config
+
+GPS Module Connections:
+
+VCC  -> Raspberry Pi Physical Pin 2 (5V)
+GND  -> Raspberry Pi Physical Pin 6 (GND)
+TX   -> Raspberry Pi Physical Pin 10 (GPIO15 / RXD)
+RX   -> Raspberry Pi Physical Pin 8 (GPIO14 / TXD)
+
+Serial Port: /dev/serial0
+Baud Rate: 9600
+
+sudo raspi-config
+
+sudo reboot
+
+
+Step 5: Check serial port
+
+ls -l /dev/serial*
+
+The serial port should be available as:
+
+/dev/serial0
+
+
+
+sudo apt update
+sudo apt install python3-serial
+pip3 install pynmea2
+If pip gives an externally-managed-environment error:
+python3 -m pip install --break-system-packages pynmea2
+
+
+Step 7: Optional Minicom installation
+
+sudo apt install minicom
+
+
+Step 8: Test GPS
+
+minicom -D /dev/serial0 -b 9600
+
+
+GPS should send data such as:
+
+$GPGGA,...
+$GPRMC,...
+$GPGSA,...
+
+
+Step 9: Create Python file
+nano practical_5_gps.py
+
+
+Step 10: Run the program
+
+python3 practical_5_gps.py
+
+import serial
+import pynmea2
+
+port = "/dev/ttyAMA0"
+
+ser = serial.Serial(
+    port,
+    baudrate=9600,
+    timeout=0.5
+)
+
+while True:
+    data = ser.readline()
+
+    if data[0:6] == b'$GPGGA':
+        msg = pynmea2.parse(data.decode())
+        print(msg)

@@ -1,0 +1,25 @@
+Nano — Quick Controls
+nano filename.py
+
+Action	Shortcut
+Save	Ctrl + O
+Confirm save	Enter
+Exit	Ctrl + X
+Cut line	Ctrl + K
+Paste	Ctrl + U
+Search	Ctrl + W
+Go to line	Ctrl + _
+Undo	Alt + U
+Redo	Alt + E
+Help	Ctrl + G
+
+
+Most important
+When you're done editing:
+Ctrl + O
+Enter
+Ctrl + X
+
+Remember: ^ shown in Nano means Ctrl.
+So ^O = Ctrl + O.
+

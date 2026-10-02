@@ -1,29 +1,23 @@
-export default function Page() {
+import FolderDownload from "@/components/FolderDownload";
+import { listFolders } from "@/lib/folders";
+
+export const dynamic = "force-dynamic";
+
+export default async function Page() {
+  const folders = await listFolders();
+
   return (
-    <>
-      <a
-        className="download"
-        href="/api/download"
-        download
-        aria-label="Download file"
-        title="Download"
-      >
-        <svg
-          width="20"
-          height="20"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          aria-hidden="true"
-        >
-          <path d="M12 4v11" />
-          <path d="m7 11 5 5 5-5" />
-          <path d="M5 20h14" />
-        </svg>
-      </a>
-    </>
+    <main className="page">
+      <h1>IoT practicals</h1>
+      {folders.length === 0 && <p>No folders available.</p>}
+      <ul className="folders">
+        {folders.map((name) => (
+          <li key={name}>
+            <strong>{name}</strong>
+            <FolderDownload name={name} />
+          </li>
+        ))}
+      </ul>
+    </main>
   );
 }

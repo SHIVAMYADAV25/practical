@@ -1,0 +1,47 @@
+
+QUICK REVISION
+==============
+
+P1 - LED
+11 -> LED
+6  -> GND
+
+P2 - TM1637
+16 -> CLK
+18 -> DIO
+2  -> VCC
+6  -> GND
+
+P3 - ADS1115
+1 -> VDD
+6 -> GND
+3 -> SDA
+5 -> SCL
+A0 -> Signal
+
+P4 - Telegram LED
+11 -> LED
+6  -> GND
+
+P5 - GPS
+2  -> VCC
+6  -> GND
+10 -> TX
+8  -> RX
+
+P6 - LCD
+1 -> LV
+3 -> SDA
+5 -> SCL
+6 -> GND
+
+P7 - Relay
+37 -> IN
+6  -> GND
+2  -> VCC
+
+P9 - PN532
+2 -> VCC
+6 -> GND
+3 -> SDA
+5 -> SCL
