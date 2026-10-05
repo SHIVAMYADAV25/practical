@@ -2,7 +2,7 @@
 // npm login --auth-type=web
 // npm whoami
 
-// npm config set //registry.npmjs.org/:_authToken=YOUR_TOKEN
+// npm config set //registry.npmjs.org/:_authToken=YOUR_TOKEN (npm  _   7ANUVmoDGAliHKZoXpPGac052kSZqc4EqqDU)
 
 // npm publish --access public
 
