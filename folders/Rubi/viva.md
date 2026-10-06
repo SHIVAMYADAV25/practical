@@ -1,22 +1,3 @@
-Yes. Let's make this **strictly according to your MCCSCT410 syllabus**, not random AI questions.
-
-For your viva, I would prepare questions in these categories:
-
-1. **Generative AI fundamentals**
-2. **Generative models — GAN, VAE, Autoencoder, CycleGAN**
-3. **Transformers, BERT, GPT**
-4. **Image/text/audio/video generation**
-5. **Creative AI**
-6. **Industry applications**
-7. **Business and innovation**
-8. **GAN architecture and problems**
-9. **Cloud deployment — AWS, Azure, Google Cloud**
-10. **Your 10 practicals**
-
----
-
-# MCCSCT410 Generative AI — Syllabus-Based Viva
-
 ## UNIT I — Evolution and Impact of Generative AI
 
 ### 1. What is Artificial Intelligence?
@@ -134,7 +115,7 @@ Send notification
 
 # UNIT II — Fundamentals of Generative Models
 
-# ⭐ 15. What is a Generative Model?
+#  15. What is a Generative Model?
 
 > A generative model learns patterns or the underlying distribution of data and can generate new samples similar to the data on which it was trained.
 
@@ -149,7 +130,7 @@ Autoregressive Model
 
 ---
 
-# ⭐ 16. What is GAN?
+#  16. What is GAN?
 
 **GAN = Generative Adversarial Network**
 
@@ -177,7 +158,7 @@ Attempts to distinguish real data from generated data.
 
 ---
 
-# ⭐ 17. Why is GAN called "Adversarial"?
+#  17. Why is GAN called "Adversarial"?
 
 > Because the Generator and Discriminator have competing objectives. The Generator tries to fool the Discriminator, while the Discriminator tries to correctly identify generated data.
 
@@ -213,8 +194,7 @@ Important:
 
 ---
 
-# ⭐ 22. What is Mode Collapse?
-
+#  22. What is Mode Collapse?
 > Mode collapse occurs when a GAN Generator produces limited varieties of outputs instead of generating diverse samples.
 
 Example:
@@ -223,7 +203,7 @@ You ask the GAN to generate 1,000 different faces but it keeps producing very si
 
 ---
 
-# ⭐ 23. What is VAE?
+#  23. What is VAE?
 
 **VAE = Variational Autoencoder**
 
@@ -323,7 +303,7 @@ Transformers are fundamental to many modern language models.
 
 ---
 
-# ⭐ 30. What is BERT?
+#  30. What is BERT?
 
 **BERT = Bidirectional Encoder Representations from Transformers**
 
@@ -339,7 +319,7 @@ Transformers are fundamental to many modern language models.
 
 ---
 
-# ⭐ 32. For text generation, which model can we use?
+#  32. For text generation, which model can we use?
 
 > We can use a **Large Language Model (LLM)** such as GPT-family models, Gemini, Llama, Mistral, etc.
 
@@ -435,7 +415,7 @@ For your practical:
 
 ---
 
-# ⭐ 43. What model did you use for image generation?
+#  43. What model did you use for image generation?
 
 **Your answer:**
 
@@ -443,13 +423,13 @@ For your practical:
 
 ---
 
-# ⭐ 44. Is Stable Diffusion a GAN?
+#  44. Is Stable Diffusion a GAN?
 
 > No. Stable Diffusion is a **latent diffusion model**, not a GAN.
 
 ---
 
-# ⭐ 45. What model can be used for face generation?
+#  45. What model can be used for face generation?
 
 > GAN architectures such as **StyleGAN** have been widely used for realistic face generation.
 
@@ -539,7 +519,7 @@ You can give a general answer:
 
 ---
 
-# ⭐ UNIT IV — Deep Dive into GANs
+#  UNIT IV — Deep Dive into GANs
 
 ## 57. Explain GAN architecture.
 
@@ -593,7 +573,7 @@ Simple answer:
 
 ---
 
-# ⭐ 63. Name cloud platforms in your syllabus.
+#  63. Name cloud platforms in your syllabus.
 
 Your syllabus specifically mentions:
 
@@ -625,7 +605,7 @@ Your syllabus specifically mentions:
 
 ---
 
-# ⭐ 68. How do you deploy a GAN?
+#  68. How do you deploy a GAN?
 
 Basic answer:
 
@@ -665,7 +645,7 @@ Generated Image
 
 ---
 
-# 🔥 PRACTICAL-WISE MODEL QUESTIONS
+#  PRACTICAL-WISE MODEL QUESTIONS
 
 Your examiner can ask:
 
@@ -797,7 +777,7 @@ Your examiner can ask:
 
 ---
 
-# ⭐ Most Important "What Model Should I Use?" Questions
+#  Most Important "What Model Should I Use?" Questions
 
 Memorize this one table tonight:
 

@@ -1,6 +1,4 @@
-Yes. Since this is a **Generative AI practical viva**, your examiner can start much more basic than your Stable Diffusion code. They can go from **AI → ML → DL → Neural Networks → Generative AI → GAN/VAE → Transformers → Stable Diffusion → your code → cloud/deployment**.
 
-Here are the different types of questions I would prepare.
 
 ## 1. AI Basics
 

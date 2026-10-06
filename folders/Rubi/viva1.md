@@ -134,7 +134,7 @@ Send notification
 
 # UNIT II — Fundamentals of Generative Models
 
-# ⭐ 15. What is a Generative Model?
+#  15. What is a Generative Model?
 
 > A generative model learns patterns or the underlying distribution of data and can generate new samples similar to the data on which it was trained.
 
@@ -149,7 +149,7 @@ Autoregressive Model
 
 ---
 
-# ⭐ 16. What is GAN?
+# 16. What is GAN?
 
 **GAN = Generative Adversarial Network**
 
@@ -177,7 +177,7 @@ Attempts to distinguish real data from generated data.
 
 ---
 
-# ⭐ 17. Why is GAN called "Adversarial"?
+#  17. Why is GAN called "Adversarial"?
 
 > Because the Generator and Discriminator have competing objectives. The Generator tries to fool the Discriminator, while the Discriminator tries to correctly identify generated data.
 
@@ -213,7 +213,7 @@ Important:
 
 ---
 
-# ⭐ 22. What is Mode Collapse?
+#  22. What is Mode Collapse?
 
 > Mode collapse occurs when a GAN Generator produces limited varieties of outputs instead of generating diverse samples.
 
@@ -223,7 +223,7 @@ You ask the GAN to generate 1,000 different faces but it keeps producing very si
 
 ---
 
-# ⭐ 23. What is VAE?
+# 23. What is VAE?
 
 **VAE = Variational Autoencoder**
 
@@ -271,7 +271,7 @@ Reconstructed Output
 
 ---
 
-# ⭐ 26. What is CycleGAN?
+# 26. What is CycleGAN?
 
 > CycleGAN is a GAN-based image-to-image translation model that can learn to translate images between two domains without requiring paired training examples.
 
@@ -302,7 +302,7 @@ Image → Cat / Dog
 
 ---
 
-# ⭐ 28. Generative vs Discriminative Model
+# 28. Generative vs Discriminative Model
 
 | Generative | Discriminative |
 |---|---|
@@ -323,7 +323,7 @@ Transformers are fundamental to many modern language models.
 
 ---
 
-# ⭐ 30. What is BERT?
+# 30. What is BERT?
 
 **BERT = Bidirectional Encoder Representations from Transformers**
 
@@ -339,7 +339,7 @@ Transformers are fundamental to many modern language models.
 
 ---
 
-# ⭐ 32. For text generation, which model can we use?
+# 32. For text generation, which model can we use?
 
 > We can use a **Large Language Model (LLM)** such as GPT-family models, Gemini, Llama, Mistral, etc.
 
@@ -435,7 +435,7 @@ For your practical:
 
 ---
 
-# ⭐ 43. What model did you use for image generation?
+# 43. What model did you use for image generation?
 
 **Your answer:**
 
@@ -443,13 +443,13 @@ For your practical:
 
 ---
 
-# ⭐ 44. Is Stable Diffusion a GAN?
+# 44. Is Stable Diffusion a GAN?
 
 > No. Stable Diffusion is a **latent diffusion model**, not a GAN.
 
 ---
 
-# ⭐ 45. What model can be used for face generation?
+# 45. What model can be used for face generation?
 
 > GAN architectures such as **StyleGAN** have been widely used for realistic face generation.
 
@@ -539,7 +539,7 @@ You can give a general answer:
 
 ---
 
-# ⭐ UNIT IV — Deep Dive into GANs
+# UNIT IV — Deep Dive into GANs
 
 ## 57. Explain GAN architecture.
 
@@ -593,7 +593,7 @@ Simple answer:
 
 ---
 
-# ⭐ 63. Name cloud platforms in your syllabus.
+# 63. Name cloud platforms in your syllabus.
 
 Your syllabus specifically mentions:
 
@@ -625,7 +625,7 @@ Your syllabus specifically mentions:
 
 ---
 
-# ⭐ 68. How do you deploy a GAN?
+# 68. How do you deploy a GAN?
 
 Basic answer:
 
@@ -665,7 +665,7 @@ Generated Image
 
 ---
 
-# 🔥 PRACTICAL-WISE MODEL QUESTIONS
+# PRACTICAL-WISE MODEL QUESTIONS
 
 Your examiner can ask:
 
@@ -797,7 +797,7 @@ Your examiner can ask:
 
 ---
 
-# ⭐ Most Important "What Model Should I Use?" Questions
+#  Most Important "What Model Should I Use?" Questions
 
 Memorize this one table tonight:
 

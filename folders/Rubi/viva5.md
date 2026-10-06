@@ -2,7 +2,7 @@ Yes. **GAN, VAE, BERT, GPT, Stable Diffusion, CLIP, CycleGAN** are important, bu
 
 For your **MCCSCT410**, I would cover these remaining areas too:
 
-# 🔥 1. Diffusion Models
+# 1. Diffusion Models
 
 This is especially important because your practical uses Stable Diffusion.
 
@@ -33,7 +33,7 @@ Generated Image
 
 ---
 
-# ⭐ 2. Stable Diffusion
+#  2. Stable Diffusion
 
 Know these:
 
@@ -63,7 +63,7 @@ Know these:
 
 ---
 
-# ⭐ 3. Autoencoder
+# 3. Autoencoder
 
 Don't only learn VAE.
 
@@ -90,7 +90,7 @@ Output
 
 ---
 
-# ⭐ 4. Latent Space
+# 4. Latent Space
 
 This is **very likely to be asked** if you discuss VAE or diffusion.
 
@@ -112,8 +112,7 @@ The model works with the representation instead of directly using every original
 
 ---
 
-# ⭐ 5. Transformer
-
+#  5. Transformer
 Your syllabus mentions BERT and GPT, so Transformer is important.
 
 ### What is Transformer?
@@ -133,7 +132,7 @@ are based on Transformer architectures or their descendants.
 
 ---
 
-# ⭐ 6. Attention Mechanism
+# 6. Attention Mechanism
 
 ### What is Attention?
 
@@ -151,7 +150,7 @@ Attention helps the model consider relevant relationships.
 
 ---
 
-# ⭐ 7. NLP
+# 7. NLP
 
 **NLP = Natural Language Processing**
 
@@ -168,7 +167,7 @@ Applications:
 
 ---
 
-# ⭐ 8. LLM
+# 8. LLM
 
 **LLM = Large Language Model**
 
@@ -185,7 +184,7 @@ Examples:
 
 ---
 
-# ⭐ 9. Prompt Engineering
+# 9. Prompt Engineering
 
 This isn't explicitly a separate heading in your syllabus, but it is highly relevant to your practical.
 
@@ -210,7 +209,7 @@ neon lights, detailed architecture
 
 ---
 
-# ⭐ 10. Embeddings
+# 10. Embeddings
 
 Especially useful if your examiner asks modern GenAI questions.
 
@@ -230,7 +229,7 @@ Similar concepts tend to have related representations.
 
 ---
 
-# ⭐ 11. RAG
+# 11. RAG
 
 **RAG = Retrieval-Augmented Generation**
 
@@ -262,7 +261,7 @@ College PDF → RAG → Ask question → Answer from PDF.
 
 ---
 
-# ⭐ 12. Hallucination
+#  12. Hallucination
 
 ### What is AI hallucination?
 
@@ -277,7 +276,7 @@ AI: Gives a confident but false answer.
 
 ---
 
-# ⭐ 13. Fine-Tuning
+#  13. Fine-Tuning
 
 ### What is fine-tuning?
 
@@ -299,7 +298,7 @@ A general language model → fine-tuned for a specific domain.
 
 ---
 
-# ⭐ 14. Transfer Learning
+#  14. Transfer Learning
 
 ### What is Transfer Learning?
 
@@ -308,8 +307,7 @@ A general language model → fine-tuned for a specific domain.
 This reduces the need to train everything from scratch.
 
 ---
-
-# ⭐ 15. Pre-trained Model
+#  15. Pre-trained Model
 
 Your practical directly uses this.
 
@@ -325,7 +323,7 @@ StableDiffusionPipeline.from_pretrained(...)
 
 ---
 
-# ⭐ 16. Training vs Inference
+# 16. Training vs Inference
 
 Very important.
 
@@ -343,7 +341,7 @@ Your Stable Diffusion practical is primarily:
 
 ---
 
-# ⭐ 17. Parameters
+# 17. Parameters
 
 ### What are model parameters?
 
@@ -353,7 +351,7 @@ Large models can contain millions or billions of parameters.
 
 ---
 
-# ⭐ 18. Hyperparameters
+# 18. Hyperparameters
 
 ### What are hyperparameters?
 
@@ -375,7 +373,7 @@ For generation, you may also encounter settings such as:
 
 ---
 
-# ⭐ 19. Temperature
+#  19. Temperature
 
 Especially for text-generation viva.
 
@@ -395,7 +393,7 @@ High temperature
 
 ---
 
-# ⭐ 20. Token
+#20. Token
 
 ### What is a token?
 
@@ -411,7 +409,7 @@ may be split into multiple tokens depending on the tokenizer.
 
 ---
 
-# ⭐ 21. Tokenization
+# 21. Tokenization
 
 ### What is tokenization?
 
@@ -429,7 +427,7 @@ Model
 
 ---
 
-# ⭐ 22. Context Window
+# 22. Context Window
 
 ### What is context window?
 
@@ -437,7 +435,7 @@ Model
 
 ---
 
-# ⭐ 23. Multimodal AI
+# 23. Multimodal AI
 
 ### What is multimodal AI?
 
@@ -457,7 +455,7 @@ This is an important modern GenAI concept.
 
 ---
 
-# ⭐ 24. Synthetic Data
+# 24. Synthetic Data
 
 ### What is synthetic data?
 
@@ -473,7 +471,7 @@ Uses:
 
 ---
 
-# ⭐ 25. Data Augmentation
+# 25. Data Augmentation
 
 Your **Practical 10** directly covers this.
 
@@ -506,7 +504,7 @@ Larger Dataset
 
 ---
 
-# ⭐ 26. Deepfake
+# 26. Deepfake
 
 Your Practical 5.
 
@@ -524,7 +522,7 @@ Your Practical 5.
 
 ---
 
-# ⭐ 27. Neural Style Transfer
+# 27. Neural Style Transfer
 
 Your Practical 7.
 
@@ -540,7 +538,7 @@ Stylized Image
 
 ---
 
-# ⭐ 28. AI Agents
+# 28. AI Agents
 
 Not a major explicit syllabus heading, but very relevant to **automation**.
 
@@ -568,7 +566,7 @@ For example, an agent could read an email, check an order database, and prepare 
 
 ---
 
-# ⭐ 29. AI Automation
+# 29. AI Automation
 
 ### How can GenAI automate tasks?
 
@@ -592,7 +590,7 @@ Generate response
 
 ---
 
-# ⭐ 30. AI Ethics
+# 30. AI Ethics
 
 Your syllabus specifically mentions ethics.
 
@@ -624,7 +622,7 @@ Understanding how and why AI systems produce outputs.
 
 ---
 
-# ⭐ 31. Responsible AI
+# 31. Responsible AI
 
 ### What is Responsible AI?
 
@@ -632,7 +630,7 @@ Understanding how and why AI systems produce outputs.
 
 ---
 
-# ⭐ 32. Model Evaluation
+# 32. Model Evaluation
 
 ### Why evaluate a generative model?
 
@@ -650,7 +648,7 @@ For example:
 
 ---
 
-# ⭐ 33. Cloud Deployment
+# 33. Cloud Deployment
 
 Your Unit V.
 
@@ -668,7 +666,7 @@ Google Cloud
 
 ---
 
-# 🧠 Complete MCCSCT410 Concept Map
+# Complete MCCSCT410 Concept Map
 
 If you understand this, you have covered most of the important theory:
 

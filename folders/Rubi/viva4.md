@@ -1,7 +1,3 @@
-Absolutely. For your **MCCSCT410 Generative AI practical viva**, first master the **foundation questions**. Examiners often start with very basic questions like *“What is AI?”* and then move toward *“What is GenAI?”*, *“Why do we use it?”*, *“What model do you use?”*, etc.
-
-# 🔥 MCCSCT410 — Most Important GenAI Viva Questions & Answers
-
 ## 1. What is AI?
 
 **AI = Artificial Intelligence**
@@ -58,7 +54,7 @@ Examples:
 
 ---
 
-# ⭐ 4. AI vs ML vs DL
+# 4. AI vs ML vs DL
 
 This is **extremely important**.
 
@@ -88,7 +84,7 @@ Uses deep neural networks to learn complex patterns.
 
 ---
 
-# ⭐ 5. What is Generative AI?
+# 5. What is Generative AI?
 
 **GenAI = Generative Artificial Intelligence**
 
@@ -141,7 +137,7 @@ We use GenAI to:
 
 ---
 
-# ⭐ 8. What is a Generative Model?
+# 8. What is a Generative Model?
 
 > A generative model learns patterns or the underlying distribution of data and can generate new samples that resemble the data it learned from.
 
@@ -170,8 +166,7 @@ Cat / Dog
 
 ---
 
-# ⭐ 10. Generative vs Discriminative
-
+# 10. Generative vs Discriminative
 | Generative | Discriminative |
 |---|---|
 | Generates new data | Predicts/classes data |
@@ -183,7 +178,7 @@ Cat / Dog
 
 ---
 
-# 🔥 11. What is GAN?
+# 11. What is GAN?
 
 **GAN = Generative Adversarial Network**
 
@@ -227,7 +222,7 @@ Real / Fake
 
 ---
 
-# ⭐ 16. What is VAE?
+# 16. What is VAE?
 
 **VAE = Variational Autoencoder**
 
@@ -266,8 +261,7 @@ Reconstructed Output
 ```
 
 ---
-
-# ⭐ 18. What is a Diffusion Model?
+# 18. What is a Diffusion Model?
 
 > A diffusion model is a generative model that learns to generate data by reversing a noise-adding process through iterative denoising.
 
@@ -303,7 +297,7 @@ Generated Image
 
 ---
 
-# ⭐ 20. Is Stable Diffusion a GAN?
+# 20. Is Stable Diffusion a GAN?
 
 > No. Stable Diffusion is a diffusion-based generative model, not a GAN.
 
@@ -333,7 +327,7 @@ Example:
 
 ---
 
-# ⭐ 24. What is an LLM?
+# 24. What is an LLM?
 
 **LLM = Large Language Model**
 
@@ -368,7 +362,7 @@ For:
 
 ---
 
-# ⭐ 27. What is BERT?
+# 27. What is BERT?
 
 **BERT = Bidirectional Encoder Representations from Transformers**
 
@@ -393,7 +387,7 @@ It can be used for:
 
 ---
 
-# ⭐ 29. What is Transformer?
+# 29. What is Transformer?
 
 > Transformer is a neural-network architecture based on attention mechanisms that is highly effective for processing sequential data such as language.
 
@@ -412,7 +406,7 @@ Transformers are the foundation of many modern:
 
 ---
 
-# 🔥 31. What is CLIP?
+# 31. What is CLIP?
 
 **CLIP = Contrastive Language-Image Pre-training**
 
@@ -442,7 +436,7 @@ Used for:
 
 ---
 
-# ⭐ 33. What is CycleGAN?
+# 33. What is CycleGAN?
 
 > CycleGAN is a GAN-based image-to-image translation model that can learn transformations between two image domains without requiring paired examples.
 
@@ -469,7 +463,7 @@ Generated Image
 
 ---
 
-# 🎯 Model Selection Questions
+# Model Selection Questions
 
 These are **very important for viva**.
 
@@ -511,37 +505,37 @@ These are **very important for viva**.
 
 ---
 
-# 🏥 44. How is GenAI used in Healthcare?
+# 44. How is GenAI used in Healthcare?
 
 > GenAI can assist in medical documentation, summarization, medical education, research, drug discovery, synthetic data generation, and patient communication.
 
 ---
 
-# 💊 45. How is GenAI used in Drug Discovery?
+# 45. How is GenAI used in Drug Discovery?
 
 > Generative models can generate candidate molecular structures and help researchers explore molecules with desired properties.
 
 ---
 
-# 💰 46. How is GenAI used in Finance?
+# 46. How is GenAI used in Finance?
 
 > It can assist with report generation, document analysis, customer support, financial summarization, risk-analysis workflows, and fraud-investigation support.
 
 ---
 
-# 🏭 47. How is GenAI used in Manufacturing?
+# 47. How is GenAI used in Manufacturing?
 
 > It can assist with product design, engineering, simulations, technical documentation, maintenance support, and supply-chain workflows.
 
 ---
 
-# 🤖 48. How is GenAI used in Robotics?
+# 48. How is GenAI used in Robotics?
 
 > It can help robots understand natural-language instructions, plan tasks, interpret environments, and assist with robot programming and simulation.
 
 ---
 
-# ⚙️ 49. How is GenAI used in Automation?
+# 49. How is GenAI used in Automation?
 
 > GenAI can automate tasks involving text, documents, code, images, and natural-language interactions by connecting AI models with APIs, databases, and software workflows.
 
@@ -563,19 +557,19 @@ Update system
 
 ---
 
-# 🎨 50. How is GenAI used in Creative Industries?
+# 50. How is GenAI used in Creative Industries?
 
 > It can generate artwork, music, scripts, advertisements, designs, video concepts, and other creative content.
 
 ---
 
-# 💼 51. How does GenAI help businesses?
+# 51. How does GenAI help businesses?
 
 > It can improve productivity, automate repetitive tasks, assist product development, generate marketing content, improve customer support, and help analyze large amounts of information.
 
 ---
 
-# ☁️ 52. Why use Cloud for Generative AI?
+# 52. Why use Cloud for Generative AI?
 
 > Cloud platforms provide scalable compute, GPUs/accelerators, storage, APIs, deployment infrastructure, and monitoring required for AI applications.
 
@@ -611,7 +605,7 @@ Update system
 
 ---
 
-# ⚠️ 57. What are ethical issues in Generative AI?
+# 57. What are ethical issues in Generative AI?
 
 Very important from your syllabus.
 
@@ -637,7 +631,7 @@ Very important from your syllabus.
 
 ---
 
-# 📚 Important Full Forms
+# Important Full Forms
 
 Learn these **exactly**:
 
@@ -680,7 +674,7 @@ Learn these **exactly**:
 
 ---
 
-# 🧠 The Most Important Conceptual Chain
+# The Most Important Conceptual Chain
 
 If ma'am asks you:
 
